@@ -9,5 +9,6 @@ public class Processor
         d.PrintBreed();
         d.Age = 5;
         d.PrintAge();
+        d.Eat();
     }
 }

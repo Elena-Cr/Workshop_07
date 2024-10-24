@@ -4,7 +4,7 @@ public class Animal
 {
     public int? Age { get; set; }
 
-    public static void Eat()
+    public void Eat()
     {
         Console.WriteLine("Animal Eats");
     }
