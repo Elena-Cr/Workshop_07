@@ -2,15 +2,15 @@ namespace workshop_07;
 
 public class Animal
 {
-    public string age { get; set; }
+    public string? Age { get; set; }
 
-    public void Eat()
+    public static void Eat()
     {
         Console.WriteLine("Animal Eats");
     }
 
     public void PrintAge()
     {
-        Console.WriteLine($"This animal is {age} years old.");
+        Console.WriteLine($"This animal is {Age} years old.");
     }
 }
