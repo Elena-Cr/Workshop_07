@@ -2,7 +2,7 @@ namespace workshop_07;
 
 public class Animal
 {
-    public string? Age { get; set; }
+    public int? Age { get; set; }
 
     public static void Eat()
     {
